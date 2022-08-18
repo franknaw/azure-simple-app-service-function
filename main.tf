@@ -6,7 +6,7 @@ Create a web app service plan.
   See: https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans
 */
 resource "azurerm_service_plan" "sp" {
-  name                = "webapp-sp-${var.plan_os_type}"
+  name                = "function-sp-${var.plan_os_type}"
   location            = var.location
   resource_group_name = var.resource_group_name
   os_type             = var.plan_os_type
