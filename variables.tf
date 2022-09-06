@@ -37,3 +37,7 @@ variable "tags" {
   description = "Map of tags"
   type        =  map(string)
 }
+
+variable "service_plan" {
+  description = "Service plan"
+}
